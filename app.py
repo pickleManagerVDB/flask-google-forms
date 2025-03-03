@@ -8,5 +8,17 @@ def new_response():
     print("Received form response:", data)
     return jsonify({"status": "success", "received": data}), 200
 
+
+
+
+@app.route('/cool')
+def cool():
+    
+    print("ur him", data)
+
+
+
+
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=10000)
